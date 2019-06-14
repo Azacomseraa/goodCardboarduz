@@ -1,0 +1,14 @@
+.feedback {
+    padding-top: 55px;
+    padding-bottom: 71px;
+    background-color: #f4f4f4;
+    &-slider{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+ 
+        img{
+            display: inline;
+        }
+    }
+}

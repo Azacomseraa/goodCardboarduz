@@ -1,0 +1,44 @@
+.production{
+    padding-top: 87px;
+    padding-bottom: 90px;
+    &-slider{
+        &_top{
+            margin-bottom: 13px;
+            height: 377px;
+            overflow-y: hidden;
+        }
+        &_bottom{
+            margin-left: 25px;
+            margin-right: 25px;
+            img{
+                padding: 0 6px;
+            }    
+        }
+    }
+    &-text{
+        max-width: 379px;
+        &__title{
+            color: $text-color-light;
+            background-color: $activ-color;
+            margin-left: -10%;
+            width: 110%;
+            font-size: 28px;
+            font-weight: 400;
+            padding-top: 20px;
+            padding-bottom: 16px;
+            padding-left: 45px;
+            margin-top: 19px;
+            margin-bottom: 28px;
+            position: relative;
+            z-index: -1;
+        }
+        &__descr{
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: justify;
+            width: 100%;
+            max-width: 379px;
+        }
+    }
+}
